@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+            body {
+                background: linear-gradient(to bottom, floralwhite,orange);
+           }
+
+            .menu {
+                z-index: 1000px;
+                position: fixed;
+                top: 0px;
+                width: 100%;
+                background-color: orange;
+                text-align: center;
+            }
+            
+            .menu a {
+                z-index: 1001px;
+                color: white;
+                text-decoration: none;
+                padding: 5px 25px;
+                display: inline-block;
+            }
+            
+            .menu a:hover {
+                z-index: 1002px;
+                background-color: orangered;
+            }
+            
+            h1{
+                z-index: 10px;
+                color: darkorange;
+                font-size: 20px; /*Tamaño de la letra*/
+                font-family: "Montserrat", serif;
+                background-color: white;
+                text-align: center;
+            }
+            
+            h2{
+                z-index: 10px;
+                color: coral;
+                font-size: 80px; /*Tamaño de la letra*/
+                font-family: "Montserrat", serif;
+                text-align: center;
+            }
+            
+            h3{
+                z-index: 10px;
+                color: coral;
+                font-size: 40px; /*Tamaño de la letra*/
+                font-family: "Montserrat", serif;
+                text-align: center;
+            }
+            
+            h4{
+                z-index: 10px;
+                color: coral;
+                font-size: 20px; /*Tamaño de la letra*/
+                font-family: "Montserrat", serif;
+                text-align: center;
+            }
+            
+            h5{
+                z-index: 10px;
+                color: chocolate;
+                font-size: 20px; /*Tamaño de la letra*/
+                font-family: "Montserrat", serif;
+                text-align: center
+            }
+            
+            p{
+                z-index: 10px;
+                color: chocolate;
+                font-size: 20px; /*Tamaño de la letra*/
+                font-family: "Montserrat", serif;
+            }
+            
+            ul{
+                z-index: 10px;
+                color: goldenrod;
+                font-size: 20px; /*Tamaño de la letra*/
+                font-family: "Montserrat", serif;
+            }
+            
+            li{
+                z-index: 10px;
+                color: goldenrod;
+                font-size: 20px; /*Tamaño de la letra*/
+                font-family: "Montserrat", serif;
+            }
+            
+            #imguno{
+                z-index: 10px;
+                width: 500px;
+                height: auto;
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+                border-radius: 15px;
+            }
+            
+            #imgdos{
+                z-index: 10px;
+                width: 500px;
+                height: auto;
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+                border-radius: 15px;
+            
+            } 
+            
+            #abajo{
+                z-index: 10px;
+                border-radius: 15px;
+                width: 1300px;
+                height: 130px;
+                background-color: floralwhite;
+                margin-left: auto;
+                margin-right: auto;
+                display: block;
+                padding: 10px;
+                border: 33px solid #f5ad42;
+                box-shadow: 18px 24px 63px 18px rgba(0,0,0,0.75)
+            }
+            section{
+                z-index: 10px;
+                border-radius: 15px;
+                width: 1300px;
+                height: 225px;
+                background-color: floralwhite;
+                margin-left: auto;
+                margin-right: auto;
+                display: block;
+                padding: 10px;
+                border: 30px solid #f5ad42;
+                box-shadow: 15px 20px 50px 15px rgba(0,0,0,0.75)
+            }
+            .hermano{
+                z-index: 10px;
+                border-radius: 15px;
+                width: 400px;
+                height: 225px;
+                background-color: floralwhite;
+                margin-left: auto;
+                margin-right: auto;
+                display: block;
+                padding: 10px;
+                border: 33px solid #f5ad42;
+                box-shadow: 18px 24px 63px 18px rgba(0,0,0,0.75);
+                display: flex;
+            }
+
+        .caja {
+            display: inline-block;
+            width: 300px;
+            height: 300px;
+            background-color: coral;
+            margin: 10px;
+        }
+
+        .boton {
+            background-color: aqua;
+            color: white;
+            padding: 10px;
+        }
+
+        .boton:hover {
+            background-color: darkcyan;
+        }
+
+        .anima {
+            width: 200px;
+            height: 200px;
+            background-color: coral;
+            animation: scale 2s infinite;
+        }
+    
+        .textt {
+            background-color: black;
+            color: white;
+            }
+
+@keyframes scale {
+    0% {
+        transform: scale(1)
+    }
+ 
+    50% {
+        transform: scale(3)
+    }
+ 
+    100% {
+ 
+        transform: scale(1)
+    }
+}
